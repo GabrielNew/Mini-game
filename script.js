@@ -19,7 +19,7 @@ function Field(cols, rows, ContainerId){
     }
     
     this.createRock = function() {
-        return Math.trunc(Math.random() * 5) === 1 ? '@' : ''
+        return Math.trunc(Math.random() * 5) === 1 ? 'X' : ''
     }
 
     this.drawField = function(){
